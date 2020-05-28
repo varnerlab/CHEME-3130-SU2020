@@ -24,7 +24,7 @@ We __highly__ recommend the [Anaconda distribution](https://www.anaconda.com/dow
 Once you have [Jupyter notebooks](http://jupyter.org) installed, see [here](https://jupyter.readthedocs.io/en/latest/running.html#running) for help running a notebook.
 
 * See [here](https://julialang.org/downloads/) to install [Julia](https://julialang.org) locally.
-However, for an easy all in one installation, please consider downloading/installing [JuliaPro](https://juliacomputing.com/products/juliapro); it comes with many common packages, and is integrated with the [Juno integrated development environment](https://junolab.org).
+However, for an easy all in one installation, please consider downloading/installing [JuliaPro](https://juliacomputing.com/products/juliapro); it comes with many common packages, and is already integrated with the [Juno](https://junolab.org) integrated development environment (IDE).
 
 Once [Julia](https://julialang.org) has been installed, you'll need to add the [IJulia](https://github.com/JuliaLang/IJulia.jl) package to run [Julia](https://julialang.org) code in a [Jupyter notebook](http://jupyter.org).
 To install [IJulia](https://github.com/JuliaLang/IJulia.jl), first [start Julia](https://docs.julialang.org/en/stable/manual/getting-started/) and then issue the command at the REPL prompt:
