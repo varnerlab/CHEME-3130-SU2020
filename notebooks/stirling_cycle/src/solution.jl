@@ -254,3 +254,84 @@ function compute_efficiency(stateTable::DataFrame,constants::Dict{String,Any})::
     Q = pt[!,:Q][1]
     return -1*(sum_W/Q)
 end
+
+function plot_TS_diagram(stateTable::DataFrame, pathTable::DataFrame, constants::Dict{String,Any})
+
+    # setup some defaults -
+    S1 = 25.0
+    st = stateTable
+    pt = pathTable
+    cd = constants
+
+    Cv = cd["Cv"]
+
+    # make a set of lines -
+    # P12 - isothermal
+    T1 = st[!,:T][1]
+    T2 = st[!,:T][2]
+    dS12 = pt[!,:delta_S][1]
+    S2 = S1 + dS12
+    P12 = [
+        S1 T1   ;
+        S2 T2   ;
+    ];
+
+    # P23 - constant volume
+    T2 = st[!,:T][2]
+    T3 = st[!,:T][3]
+
+    # sample -
+    T23 = collect(range(T2,stop=T3,length=100))
+    S23_array = Float64[]
+    push!(S23_array,S2)
+    S0 = S2;
+    for index = 2:100
+        
+        Ti = T23[index-1]
+        Tf = T23[index]
+
+        S_next = S0 + Cv*log(Tf/Ti)
+
+        # cache -
+        push!(S23_array,S_next)
+
+        # update -
+        S_next = S0;
+    end
+
+    # P34 - isothermal
+    T3 = st[!,:T][3]
+    T4 = st[!,:T][4]
+    dS34 = pt[!,:delta_S][3]
+    S4 = S23_array[end]+dS34
+    P34 = [
+        S23_array[end] T3   ;
+        S4 T4   ;
+    ];
+
+    # P41 - constant volume
+    T4 = st[!,:T][4]
+    T1 = st[!,:T][1]
+    T41 = collect(range(T4,stop=T1,length=100))
+    S41_array = Float64[]
+    push!(S41_array,S4)
+    S0 = S4;
+    for index = 2:100
+        
+        Ti = T41[index-1]
+        Tf = T41[index]
+
+        S_next = S0 + Cv*log(Tf/Ti)
+
+        # cache -
+        push!(S41_array,S_next)
+
+        # update -
+        S_next = S0;
+    end
+
+    plot(P12[:,1],P12[:,2],"b")
+    plot(S23_array,T23,"r")
+    plot(P34[:,1],P34[:,2],"b")
+    plot(S41_array,T41,"r")
+end
