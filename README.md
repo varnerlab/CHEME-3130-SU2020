@@ -1,6 +1,17 @@
 ## CHEME-3130 Summer 2020 GitHub site
 Example notebooks used in lecture are contained in the ``notebooks`` folder.
 
+### How do I download the example notebooks?
+You can download the examples by cloning this repository (from the command line):
+
+```
+    $> git https://github.com/varnerlab/CHEME-3130-SU2020.git
+```
+
+or by cloning the repository using the [GitHub desktop app](https://desktop.github.com). 
+Alternatively, you can download the examples as zip file by hitting the green Clone or download button, and selecting the zip option.   
+
+
 ### How do I run the examples?
 The examples presented in the CHEME 3130 lectures are available as [Jupyter notebooks](http://jupyter.org)
 encoded in the [Julia](https://julialang.org) programming language. [Jupyter notebooks](http://jupyter.org)
@@ -21,8 +32,11 @@ To install [IJulia](https://github.com/JuliaLang/IJulia.jl), first [start Julia]
 ```
   julia> using Pkg; Pkg.add("IJulia")
 ```
+
 ### I don't want to do all that. Can I just look at the examples?
-Sure! We have linked the GitHub code to [NBViewer](https://nbviewer.jupyter.org) which allows you to see the examples (but you can't change anything).
+Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewer.jupyter.org) which allows you to see the examples (but you can't change anything).
+
+##### NBViewer example links:
 
 * [Expansion in an evacuated vessel](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/first_law_closed/EvacuatedVessel.ipynb)
 * [Does N2 behave like an ideal gas?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/heat_capacity_ideal/HeatCapacity-IdealGas.ipynb)
