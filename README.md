@@ -26,4 +26,4 @@ Sure! We have linked the GitHub code to [NBViewer](https://nbviewer.jupyter.org)
 
 * [Expansion in an evacuated vessel](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/first_law_closed/EvacuatedVessel.ipynb)
 * [Does N2 behave like an ideal gas?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/heat_capacity_ideal/HeatCapacity-IdealGas.ipynb)
-* [First and second law analysis of the Stirling cycle]()
+* [Analysis of the Stirling cycle](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/stirling_cycle/Stirling.ipynb)
