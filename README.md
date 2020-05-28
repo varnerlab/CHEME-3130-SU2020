@@ -36,7 +36,7 @@ To install [IJulia](https://github.com/JuliaLang/IJulia.jl), first [start Julia]
 ### I don't want to do all that. Can I just look at the examples?
 Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewer.jupyter.org) which allows you to see the examples (but you can't change anything).
 
-##### NBViewer example links:
+#### NBViewer links:
 
 * [Expansion in an evacuated vessel](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/first_law_closed/EvacuatedVessel.ipynb)
 * [Does N2 behave like an ideal gas?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/heat_capacity_ideal/HeatCapacity-IdealGas.ipynb)
