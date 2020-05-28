@@ -5,7 +5,7 @@ Example notebooks used in lecture are contained in the ``notebooks`` folder.
 You can download the examples by cloning this repository (from the command line):
 
 ```
-    $> git clone https://github.com/varnerlab/CHEME-3130-SU2020.git
+    $ git clone https://github.com/varnerlab/CHEME-3130-SU2020.git
 ```
 
 or by cloning the repository using the [GitHub desktop app](https://desktop.github.com). 
