@@ -43,3 +43,4 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Analysis of the Stirling cycle](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/stirling_cycle/Stirling.ipynb)
 * [Flow calorimeter](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/b23a848a2a4b2b219f8455996989b52d26876d78/notebooks/first_law_open/FlowCalorimeter.ipynb)
 * [Turbine work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/turbine_analysis/Turbine.ipynb)
+* [Compressor work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/compressor_analysis/Compressor.ipynb)
