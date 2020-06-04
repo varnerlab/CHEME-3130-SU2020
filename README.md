@@ -44,3 +44,4 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Flow calorimeter](https://gesis.mybinder.org/binder/v2/gh/varnerlab/CHEME-3130-SU2020/aad06d07a0981f1d33789f986c4cc68482c5620d)
 * [Turbine work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/turbine_analysis/Turbine.ipynb)
 * [Compressor work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/compressor_analysis/Compressor.ipynb)
+* [Theory of corresponding states (TCS). Really?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/corresponding_states/CorrespondingStates.ipynb)
