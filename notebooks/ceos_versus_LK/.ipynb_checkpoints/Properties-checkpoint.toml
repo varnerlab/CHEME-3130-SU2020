@@ -1,0 +1,6 @@
+[methane]
+critical_temperature=190.55     # K
+critical_pressure=4.595         # MPa
+critical_volume=0.09860         # L/mol
+accentric_factor=0.011          # dimensionless
+ideal_gas_constant=0.008314     # MPa L mol^-1 K^-1
