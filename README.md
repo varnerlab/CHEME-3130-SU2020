@@ -45,3 +45,4 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Turbine work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/turbine_analysis/Turbine.ipynb)
 * [Compressor work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/compressor_analysis/Compressor.ipynb)
 * [Theory of corresponding states (TCS). Really?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/corresponding_states/CorrespondingStates.ipynb)
+* [CEOS versus LK for Methane](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/ceos_versus_LK/CEOS_versus_LK.ipynb)
