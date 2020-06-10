@@ -46,3 +46,5 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Compressor work calculation](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/compressor_analysis/Compressor.ipynb)
 * [Theory of corresponding states (TCS). Really?](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/corresponding_states/CorrespondingStates.ipynb)
 * [CEOS versus LK for Methane](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/ceos_versus_LK/CEOS_versus_LK.ipynb)
+* [Heat integration for Rankine cycle](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/heat_integration_rankine/HeatIntegration-Rankine.ipynb)
+* [Multiple turbine Modified Rankine cycle](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/multiple_turbine_rankine/MultipleTurbine-Rankine.ipynb)
