@@ -51,3 +51,4 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Delta H mixing example](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/delta_H_mix_TIM/DeltaH_mix_example.ipynb)
 * [Vapor phase mixed Fugacity coefficients](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/mixed_fugacity_vapor/Q10-soln.ipynb)
 * [Estimating Excess Gibbs Energy model parameters](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/example_estimate_gE_parameters/Example.ipynb)
+* [Azetrope model parameter estimation example](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/example_estimate_gE_parameters/Azetrope.ipynb)
