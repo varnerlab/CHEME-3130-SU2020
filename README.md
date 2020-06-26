@@ -52,3 +52,11 @@ Sure! We linked the notebooks stored in GitHub to the [NBViewer](https://nbviewe
 * [Vapor phase mixed Fugacity coefficients](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/mixed_fugacity_vapor/Q10-soln.ipynb)
 * [Estimating Excess Gibbs Energy model parameters](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/example_estimate_gE_parameters/Example.ipynb)
 * [Azetrope model parameter estimation example](https://nbviewer.jupyter.org/github/varnerlab/CHEME-3130-SU2020/blob/master/notebooks/example_estimate_gE_parameters/Azetrope.ipynb)
+
+
+
+#### Gibbs energy codes
+The Gibbs energy minimization codes are [stored in their own repository](https://github.com/varnerlab/Gibbs-Minimization-Code) if you would like to interact directly with the code. Alternatively, here are two example notebooks (contained in the Gibbs repo) that illustrate the approach: 
+
+* [Single reaction Gibbs energy minimization](https://nbviewer.jupyter.org/github/varnerlab/Gibbs-Minimization-Code/blob/master/G6P-F6P-DGM.ipynb)
+* [Multiple reaction Gibbs energy minimization](https://nbviewer.jupyter.org/github/varnerlab/Gibbs-Minimization-Code/blob/master/Multireaction-DGM.ipynb)
